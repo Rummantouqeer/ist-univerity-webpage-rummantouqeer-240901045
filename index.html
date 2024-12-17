@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to IST University</title>
+    <style>
+        /* General styles for the page */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        h2 {
+            color: #2E8B57;
+            margin-top: 30px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+            padding: 10px;
+        }
+
+        /* Styling for the unordered and ordered lists */
+        ul, ol {
+            margin-left: 20px;
+        }
+
+        ul li, ol li {
+            font-size: 16px;
+            color: #555;
+        }
+
+        /* Table styles */
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table caption {
+            font-size: 20px;
+            font-weight: bold;
+            color: #4CAF50;
+            padding: 10px;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        /* Styling for form elements */
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            margin: 20px auto;
+        }
+
+        input[type="text"], input[type="email"], textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #45a049;
+        }
+
+        /* Blockquote styles */
+        blockquote {
+            font-size: 18px;
+            font-style: italic;
+            background-color: #f9f9f9;
+            border-left: 5px solid #4CAF50;
+            padding: 10px;
+            margin: 20px 0;
+            color: #666;
+        }
+
+        /* Styling for hyperlinks */
+        a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* Image styling */
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 20px 0;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Main Heading -->
+    <h1>Welcome to IST University</h1>
+    
+    <!-- Introduction Paragraph with Text Formatting -->
+    <p>
+        <b>IST University</b> is one of the leading institutions dedicated to <i>excellence in education</i> and <u>innovation in research</u>. 
+        At IST, students are empowered to achieve their goals and contribute to a brighter future.
+    </p>
+    
+    <!-- Subheadings -->
+    <h2>About IST University</h2>
+    <p>
+        Established in 2000, IST University offers top-notch facilities, highly qualified faculty, and a diverse learning environment.
+    </p>
+
+    <h2>University Departments</h2>
+    <!-- Unordered List of Departments -->
+    <ul>
+        <li>Computer Science</li>
+        <li>Electrical Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Business Administration</li>
+    </ul>
+    
+    <!-- Ordered List of Departments Count -->
+    <h2>Number of Departments</h2>
+    <ol>
+        <li>Computer Science</li>
+        <li>Electrical Engineering</li>
+        <li>Mechanical Engineering</li>
+        <li>Civil Engineering</li>
+        <li>Business Administration</li>
+    </ol>
+
+    <!-- Table with Department Data -->
+    <h2>University Departments Table</h2>
+    <table>
+        <caption><b>IST University Departments</b></caption>
+        <thead>
+            <tr>
+                <th>Department Name</th>
+                <th>Head of Department</th>
+                <th>Programs Offered</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Computer Science</td>
+                <td>Dr. Ahsan Khan</td>
+                <td>BSc, MSc, PhD</td>
+            </tr>
+            <tr>
+                <td>Electrical Engineering</td>
+                <td>Dr. Sana Rehman</td>
+                <td>BSc, MSc</td>
+            </tr>
+            <tr>
+                <td>Mechanical Engineering</td>
+                <td>Dr. Irfan Qureshi</td>
+                <td>BSc, MSc</td>
+            </tr>
+            <tr>
+                <td>Civil Engineering</td>
+                <td>Dr. Maria Ali</td>
+                <td>BSc, MSc</td>
+            </tr>
+            <tr>
+                <td>Business Administration</td>
+                <td>Dr. Jamil Siddiq</td>
+                <td>BBA, MBA</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Form Section -->
+    <h2>Contact Us</h2>
+    <form action="#" method="post">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <!-- Blockquote Section -->
+    <h2>Our Motto</h2>
+    <blockquote>
+        "At IST University, we believe in transforming lives through education, innovation, and research."
+    </blockquote>
+
+    <!-- Hyperlinks -->
+    <h2>Explore More</h2>
+    <p>
+        Visit the official website of <a href="https://www.ist.edu.pk" target="_blank">IST University</a> for more information.<br>
+        Learn more about the <a href="https://en.wikipedia.org/wiki/Institute_of_Space_Technology" target="_blank">Institute of Space Technology on Wikipedia</a>.
+    </p>
+
+    <!-- Images -->
+    <h2>Our Campus</h2>
+    
+    <img src="download.jpg" alt="IST University Logo" width="200" height="200">
+</body>
+</html>
